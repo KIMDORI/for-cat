@@ -54,7 +54,7 @@ function Calculate () {
         <div className="result-wrap">
           애기의 기초대사량은 약 <b>{defaultKcal}kcal</b>, <br />
           다이어트 시 에너지 요구량은 <b>{need}kcal</b> 입니다.<br/>
-          애기는 하루에 <b>{can/dryKcal}g</b>의 사료를 먹을 수 있습니다. <br />
+          애기는 하루에 <b>{Math.round(can/dryKcal)}g</b>의 사료를 먹을 수 있습니다. <br />
         </div>
       }
     </>
